@@ -2,8 +2,10 @@ import { useCustomRouter } from "components/hooks/custom-router";
 import React, { useState } from "react";
 
 const ForgotPasswordPage = () => {
+  
   const { goToNewEmail } = useCustomRouter();
   const [email, setEmail] = useState("");
+
   return (
     <div className="flex justify-center items-center bg-slate-300 w-full h-[100vh]">
       <div className="w-[424px] flex justify-center items-center p-8 flex-col gap-8 rounded-xl bg-white">
